@@ -1,0 +1,164 @@
+.landingPageContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #6984A9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landingPageContainer nav{
+    padding-inline:1.2rem;
+    padding-block:1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.landingPageContainer nav h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.landingPageContainer nav .navList{
+    display: flex;
+    gap: 1.6rem;
+    cursor: pointer;
+}
+.landingMainContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 3rem;
+    height:70vh;
+    align-items: center;
+}
+.landingMainContainer > div:nth-child(1){
+    font-size: 1.5rem;
+}
+.landingMainContainer > div:nth-child(1) div[role='button']{
+    background: #D97500;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    margin-top: 1.2rem;
+}
+.landingMainContainer > div:nth-child(1) div[role='button'] a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+}
+.landingImageContainer{
+    margin-top: 3rem;
+    display: flex;
+}
+.landingMainContainer >div:nth-child(2) img{
+    height: 50vh;
+    width: auto;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    text-align: center;
+}
+.meetContainer{
+    display: flex;
+    padding-inline: 20px;
+    height: 80vh;
+    gap: 10vw;
+    justify-content: center;
+}
+
+.leftPanel{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.rightPanel{
+    display: flex;
+    align-items: center;
+}
+.rightPanel >img{
+width: 30vw;
+height: auto;
+border-radius: 20px;
+}
+
+/* navbar */
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #4f4f74;
+  color: white;
+}
+
+.navHeader h2 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navList p {
+  margin: 0;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navList p:hover {
+  color: #4da6ff;
+}
+
+.navList div {
+  background-color: #64798e;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.navList div p {
+  color: white;
+}
+
+.Home{
+    background-color:#AEE2FF ;
+    min-height: 100vh;
+}
+.Video{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 15px;
+}
+.Lobby{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text{
+   width: 250px;
+}
+.btn{
+
+}
+.videocall{
+margin-left: auto;
+}
+.VideoMeet{
+    background-color:#CFECF3 ;
+    min-height: 100vh;
+}
+.History{
+    background-color: #AEE2FF;
+    min-height: 100vh;
+}
